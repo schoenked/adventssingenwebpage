@@ -7,8 +7,16 @@
     color: var(--dark);
 }
 
+#imagecard {
+display:inline;
+}
+
 .text-light {
     color: var(--light);
+}
+
+.as-border {
+    border-color: var(--light);
 }
 
 .as-element-light {
@@ -30,12 +38,12 @@ html {
 body {
     color: var(--light);
     background-color: var(--dark);
-    background-image: url('../media/background.jpg');
-    background-repeat: no-repeat;
-    /*background-position: left center;*/
-    background-size:  auto 100vh;
-    background-attachment: fixed;
 }
+
+.handwriting {
+    font-family: 'Dancing Script', sans-serif;
+}
+
 header {
     color: var(--light);
     background-color: var(--dark);
@@ -44,4 +52,8 @@ header {
 footer {
     color: var(--light);
     background-color: var(--dark);
+    position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
 }
